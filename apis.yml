@@ -1,4 +1,16 @@
 aid: wednesday
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wednesday.png
 name: Wednesday
 description: 'Wednesday is a company surfaced as a portfolio company of cowboy-ventures and added to the
   API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the
@@ -12,7 +24,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Unknown
@@ -22,3 +34,13 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Only resolvable "Wednesday" is Wednesday Solutions (wednesday.is), an India
+    software/AI dev consultancy with open-source GitHub templates but no public API
+    product or OpenAPI. Cowboy Ventures portfolio identity could not be confirmed
+    (cowboy.vc/companies 404; WebSearch budget exhausted), so no domain/identity was
+    wired in. No verifiable API surface to enrich.'
